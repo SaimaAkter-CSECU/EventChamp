@@ -1,0 +1,458 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.v-application .body-2, .v-application .subtitle-1, .v-application .subtitle-2 {
+  font-family: "Poppins" !important;
+}
+
+.v-application .text-h1, .v-application .text-h2, .v-application .text-h3, .v-application .text-h4, .v-application .text-h5, .v-application .text-h6 {
+  font-family: "Poppins" !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins" !important;
+  font-size: 90% !important;
+  line-height: 1.7;
+}
+body .container--fluid {
+  max-width: 90%;
+  margin: 0 auto;
+}
+body .w-100 {
+  width: 100%;
+}
+
+.theme--light.v-btn:hover::before {
+  opacity: 0;
+}
+
+.v-image__image {
+  background-size: 100% 100%;
+}
+
+section .section-title .v-divider {
+  max-width: 150px !important;
+  width: 150px !important;
+}
+section .slider-card-div .v-card__title:hover {
+  color: #fb0;
+}
+section .section-content .v-card .v-card__title {
+  font-weight: 600;
+}
+section .section-content .v-card .v-card__title:hover {
+  color: #fb0;
+}
+section .btn-style {
+  border: 1px solid #eaeaea;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 41px;
+  height: 41px;
+  background-color: #fff !important;
+}
+section .btn-style:hover {
+  background-color: #fb0 !important;
+  color: #fff !important;
+  border: 1px solid #fb0;
+}
+section .btn-style:hover .v-icon {
+  color: #fff !important;
+}
+section .btn-style2 {
+  border: 1px solid #fb0;
+  background-color: #fb0;
+  box-shadow: none !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px !important;
+}
+section .btn-style2:hover {
+  background-color: transparent !important;
+  color: #fb0;
+  box-shadow: none !important;
+  color: #fb0 !important;
+}
+section .btn-style2:hover .v-icon {
+  color: #fb0 !important;
+}
+section .btn-style3:hover {
+  background-color: #fff !important;
+}
+section .swiper-button-prev.btn-style, section .swiper-button-next.btn-style {
+  position: static;
+  min-height: 40px;
+  border: 1px solid #eaeaea;
+  align-self: end;
+}
+section .swiper-button-prev.btn-style::after, section .swiper-button-next.btn-style::after {
+  content: "";
+}
+
+.btn-yellowish-style {
+  color: #fff !important;
+  background-color: #fb0 !important;
+  background: #fb0;
+  border: 1px solid #fb0;
+  letter-spacing: 0.5px;
+}
+.btn-yellowish-style:hover {
+  color: #fb0 !important;
+  background-color: #fff !important;
+}
+
+section#header .menu-items {
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+section#header .menu-items:hover {
+  color: #fb0 !important;
+}
+section#header .menu-items .v-icon {
+  font-weight: 300;
+}
+section#header .menu-items .v-icon:hover {
+  color: #fb0 !important;
+}
+
+.signInDialog .v-subheader {
+  cursor: pointer;
+}
+.signInDialog .v-subheader:hover {
+  color: #fb0 !important;
+}
+.signInDialog .userIcon {
+  border: 1px solid #fb0;
+}
+
+section#banner .banner-btn .v-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  min-height: 50px;
+  min-width: 110px;
+}
+section#banner .banner-btn .v-btn:hover {
+  background-color: #fb0;
+  color: white;
+  border-color: #fb0;
+}
+section#banner .swiper-pagination-bullets {
+  bottom: 50px;
+}
+section#banner .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+  margin: 5px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+section#banner .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: white !important;
+}
+
+section#services .card-div .card-icon-div {
+  width: 115px;
+  height: 115px;
+  border: 2px solid #fb0;
+}
+section#services .card-div:hover .card-icon-div {
+  background: #fb0;
+}
+section#services .card-div:hover .card-icon-div .v-icon {
+  color: #fff !important;
+}
+
+section#eventStatus .img-div {
+  transition: all 0.4s ease-in-out;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+section#eventStatus .img-div .img-text-div {
+  width: 100%;
+  height: 100%;
+  border: 1px dashed white;
+}
+section#eventStatus .img-div:not(.on-hover) {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10%, rgba(2, 0, 5, 0) 24%, #60f 150%);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section#eventStatus .img-div.on-hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0, rgba(2, 0, 5, 0) 24%, #60f 250%);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+section#upcomingEvent .filters .v-btn-toggle > .v-btn.v-btn--active {
+  color: inherit;
+  opacity: 1;
+  background-color: white !important;
+  border-color: #fb0 !important;
+  color: #fb0 !important;
+  box-shadow: none;
+}
+section#upcomingEvent .filters .v-btn-toggle .v-btn {
+  border-color: #fb0 !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+section#upcomingEvent .filters .v-btn-toggle .v-btn:hover {
+  color: #fb0 !important;
+  background-color: white !important;
+  border-color: #fb0 !important;
+}
+section#upcomingEvent .filters .v-btn-toggle .v-btn:before {
+  display: none;
+}
+
+section#featuredEvent {
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+section#featuredEvent .discount-div {
+  transform: rotate(-45deg);
+  margin-top: 23px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff !important;
+}
+
+section#eventSearch {
+  background-color: #f9f9f9;
+}
+section#eventSearch .v-text-field__details {
+  display: none;
+}
+section#eventSearch .btn-yellowish-style {
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+section#eventSearch .btn-yellowish-style:hover {
+  color: #fb0 !important;
+  background-color: transparent !important;
+}
+
+section#popularVenu {
+  background: url("Images/Venu/venu-bg.png") no-repeat;
+  background-position: center center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-attachment: fixed;
+}
+
+section#newsletter {
+  background: url("Images/Newsletter/newsletter-bg.png") no-repeat;
+  background-position: center center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-attachment: fixed;
+}
+section#newsletter .v-input {
+  color: white !important;
+}
+section#newsletter .v-input fieldset {
+  border-color: white !important;
+}
+section#newsletter .v-input .v-label {
+  color: white;
+}
+section#newsletter .v-input input {
+  color: white;
+}
+section#newsletter .v-input .v-icon {
+  color: white !important;
+}
+section#newsletter .v-input.error--text {
+  color: grey;
+}
+section#newsletter .btn-yellowish-style:hover {
+  color: #fb0 !important;
+  background-color: transparent !important;
+}
+
+.subPage {
+  background: #f6f6f6;
+}
+.subPage .subPageBanner .v-overlay__content {
+  width: 100%;
+}
+.subPage .subPageBanner .v-overlay__content .backToHome:hover {
+  color: #fb0;
+}
+.subPage .subPageContent {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.subPage .subPageContent .content-div .v-card__title {
+  word-break: break-word;
+  font-weight: 700;
+  cursor: pointer;
+}
+.subPage .subPageContent .content-div .v-card__title:hover {
+  color: #fb0;
+}
+.subPage .subPageContent .content-div .category-tags .v-btn {
+  background-color: #eaeaea;
+  color: #888;
+  font-size: 0.7692rem;
+  font-weight: 500;
+  height: 40px;
+}
+.subPage .subPageContent .content-div .category-tags .v-btn:hover {
+  color: #fff;
+  background-color: #fb0;
+}
+.subPage .subPageContent .content-div .v-btn--fab-title {
+  font-weight: 600;
+}
+.subPage .subPageContent .content-div .v-btn--fab {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background-color: #a9a8b3;
+  font-size: 1.077rem;
+}
+.subPage .subPageContent .content-div .v-btn--fab:hover {
+  background-color: #fb0;
+  color: #fff;
+}
+.subPage .subPageContent .content-div .photos-div .v-image:hover {
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+.subPage .subPageContent .content-div .photos-div .v-image:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image .overlay .visibleText {
+  visibility: hidden;
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image:hover {
+  transition: 0.5s all ease-in-out;
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image:hover .overlay .visibleText {
+  visibility: visible;
+}
+.subPage .subPageContent .content-div .relatedSpeakers .v-image:hover .overlay .visibleText .v-icon:hover {
+  color: #fb0 !important;
+}
+.subPage .subPageContent .content-div .eventLink:hover {
+  color: #fb0 !important;
+}
+.subPage .subPageContent .content-div .v-tabs {
+  height: 80px;
+}
+.subPage .subPageContent .content-div .v-tabs .v-tabs-bar {
+  height: 80px;
+}
+.subPage .subPageContent .content-div .v-tabs .v-tabs-bar .v-tab {
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+.subPage .subPageContent .content-div .v-tabs .v-tabs-bar .v-tab span {
+  color: #4a4a4a;
+}
+.subPage .subPageContent .content-div .v-tabs .v-tabs-bar .v-tab:hover {
+  border-bottom: 2px solid #fb0;
+  background-color: white;
+}
+.subPage .subPageContent .content-div .innerTab .v-tabs {
+  height: 80px;
+}
+.subPage .subPageContent .content-div .innerTab .v-tabs .v-tabs-bar {
+  height: 80px;
+}
+.subPage .subPageContent .content-div .innerTab .v-tabs .v-tabs-bar .v-tab {
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-sizing: border-box;
+}
+.subPage .subPageContent .content-div .innerTab .v-tabs .v-tabs-bar .v-tab span {
+  color: white;
+}
+.subPage .subPageContent .content-div .innerTab .v-tabs .v-tabs-bar .v-tab:hover {
+  background-color: transparent;
+}
+.subPage .subPageContent .content-div .cart-notification-div {
+  border-top: 2px solid #fb0;
+  background-color: #f9f9f9;
+}
+.subPage .subPageContent .content-div .cart-content table {
+  border: 1px solid #eaeaea;
+}
+.subPage .subPageContent .content-div .cart-content table thead {
+  height: 5rem;
+}
+.subPage .subPageContent .content-div .cart-content table thead th {
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 1rem;
+}
+.subPage .subPageContent .content-div .cart-content table tbody tr {
+  height: 5rem;
+}
+.subPage .subPageContent .content-div .cart-content table tbody tr td {
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+}
+.subPage .subPageContent .content-div .cart-content table tbody tr td .v-text-field__details {
+  display: none;
+}
+.subPage .subPageContent .content-div .cart-content table tbody tr td .v-input__slot {
+  margin-bottom: 0;
+}
+.subPage .subPageContent .content-div .cart-content table tbody tr:hover {
+  background-color: white !important;
+}
+.subPage .subPageContent .author-details {
+  color: #222;
+}
+.subPage .subPageContent .author-details .author-title {
+  font-weight: 600;
+  cursor: pointer;
+}
+.subPage .subPageContent .author-details .author-title:hover {
+  color: #fb0;
+}
+.subPage .subPageContent .author-details .author-social-icons {
+  color: #222;
+  font-size: 1.25rem;
+}
+.subPage .subPageContent .author-details .author-social-icons:hover {
+  color: #fb0;
+}/*# sourceMappingURL=variables.css.map */
